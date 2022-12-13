@@ -121,7 +121,7 @@ Exemplo 4 | R$ 9
 
 Exemplo de tabela alinhada:
 Alinhado a Esquerda | Centralizado | Alinhado a Direita |
-:--------- | :---------: | ---------: 
+:-------- | :---------: | ---------: 
 Exemplo 1 | Exemplo 1 | Exemplo 1
 Exemplo 2 | Exemplo 2 | Exemplo 2
 Exemplo 3 | Exemplo 3 | Exemplo 3
