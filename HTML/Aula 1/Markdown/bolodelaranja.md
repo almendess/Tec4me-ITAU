@@ -1,6 +1,6 @@
 #  Bolo de Laranja com Calda.
 
-![bolo](bololaranja.png)
+![bolo](bolo.png)
 
 ###  Ingredientes:
 - 1 laranja tipo Bahia
