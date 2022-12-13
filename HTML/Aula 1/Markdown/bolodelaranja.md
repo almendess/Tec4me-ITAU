@@ -1,5 +1,5 @@
 #  Bolo de Laranja com Calda.
-
+![https://receitasmondial.com.br/receitas/bolo-de-laranja-com-calda](bololaranja.png)
 ###  Ingredientes:
 - 1 laranja tipo Bahia
 - 4 ovos
@@ -34,4 +34,4 @@
 
 8. Deixe em fogo baixo até começar a encorpar, logo após, despeje sobre o bolo ainda quente 
 
-> **Por fim, você terá um belo bolo de laranja para comer junto com a família e amigos**
+> **Por fim, você terá um belo bolo de laranja para comer junto com a família e amigos.**
