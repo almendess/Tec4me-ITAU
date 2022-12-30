@@ -1,0 +1,26 @@
+.foto-perfil{
+    border-radius: 100%;
+    max-width: 150px;
+    border: 1px solid black;
+}
+
+body{
+    background-color: #867d7d81;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 5px 10px;
+}
+
+th{
+    background-color: #867d7d96;
+}
+
+.ano{
+    text-align: center;
+}
