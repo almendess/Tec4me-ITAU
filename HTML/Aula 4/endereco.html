@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preenchendo Endereços</title>
+</head>
+<body>
+    <h1>Preencha os Dados:</h1>
+    <form action="http://localhost3003/alunos" method="post">
+        <div>
+            <label>Nome:</label>
+            <input type="text" name="nome" required>
+            <label>CPF</label>
+            <input type="number_format" name="cpf:" placeholder="123.456.789-10" required>
+        </div>
+        <br>
+        <div>
+            <label>Sobrenome:</label>
+            <input type="text" name="sobrenome" required>
+            <label>Senha:</label>
+            <input type="password" name="senha" required>
+        </div>
+        <br>
+        <div>
+            <label>Rua:</label>
+            <input type="text" name="rua" required>
+            <label>Nº:</label>
+            <input type="number_format" name="numero" required>
+        </div>
+        <br>
+        <div>
+            <label>Bairro:</label>
+            <input type="text" name="bairro" required>
+            <label>Cidade:</label>
+            <input type="text" name="cidade" required>
+        </div>
+        <br>
+        <div>
+            <label>Estado:</label>
+            <select name="estados" required>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="ES">Espirito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="DF">Distrito Federal</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <h4>O endereço de entrega é o mesmo de cobrança?</h4>
+            <label>SIM</label>
+            <input type="radio" name="resposta" value="sim" required>
+            <label>NÃO</label>
+            <input type="radio" name="resposta" value="nao" required>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Incluir o Endereço</button>
+        </div>
+    </form>
+    
+</body>
+</html>
