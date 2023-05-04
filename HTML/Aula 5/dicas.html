@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas de HTML</title>
+</head>
+<body>
+    <h1 id="cabecalhos">Dicas Para Aprender HTML</h1>
+    <p>
+        Ao acessar uma página web através de um navegador, ele é capaz de interpretar o código HTML e renderizá-lo de forma compreensível para o usuário final. Com as configurações definidas por meio de diversas tags que essa lingugagem dispõe, é possível exibir textos, botões, formulários etc.
+    </p>
+    <p>
+        Atualmente a
+        <strong>HTML</strong>
+        encontra-se na versão 5 e é padronizada pelo W3C (World Wide Web Consortium), uma organização internacional responsável por estabelecer padrões para a internet, como a linguagem XML, CSS e o SOAP.
+    </p>
+    <h3>Estrutura básica de uma página HTML</h3>
+    <p>
+        Na
+        <strong>estrutura básica de uma página HTML</strong>,
+        podemos ver as principais tags que são necessárias para que o documento seja corretamente interpretado pelos browsers.
+    </p>
+    <div class="area-codigo">
+        <div>
+            <code>
+                <span class="doctype">
+                    <span class="pontuacao">&lt;!</span><span class="doctype-tag">DOCTYPE</span>
+                    <span class="html-name">html</span><span class="pontuacao">&gt;</span>
+                </span>
+                <br>
+                <span class="html">
+                    <span class="pontuacao">&#60;</span><span class="html-name">html</span><span class="pontuacao">&#62;</span>
+                </span>
+                <br>
+                <span class="head">
+                    <span class="pontuacao">&#60;</span><span class="head-name">head</span><span class="pontuacao">&#62;</span>
+                </span>
+                <br>
+                <span class="meta">
+                    <span class="pontuacao">&#60;</span><span class="meta-name">meta</span>
+                    <span class="charset-name">charset</span><span class="pontuacao-igual">&#61;</span><span class="pontuacao">&#34;</span><span class="UTF-8-name">UTF-8</span><span class="pontuacao">&#34;</span><span class="pontuacao">/&#62;</span>
+                </span>
+                <br>
+                <span class="title">
+                    <span class="pontuacao">&#60;</span><span class="title-name">title</span><span class="pontuacao">&#62;</span><span class="title-documento">Documento</span><span class="pontuacao">&#60;/</span><span class="title-name">title</span><span class="pontuacao">&#62;</span>
+                </span>
+                <br>
+                <span class="head">
+                    <span class="pontuacao">&#60;/</span><span class="head-name">head</span><span class="pontuacao">&#62;</span>
+                </span>
+                <br>
+                <span class="body">
+                    <span class="pontuacao">&#60;</span><span class="body-name">body</span><span class="pontuacao">&#62;</span>
+                </span>
+                <br>
+                <span class="conteudo">Todo o conteúdo da página vai dentro das tags de abertura e fechamento de body.</span>
+                <br>
+                <span class="body">
+                    <span class="pontuacao">&#60;/</span><span class="body-name">body</span><span class="pontuacao">&#62;</span>
+                </span>  
+                <br>
+                <span class="html">
+                    <span class="pontuacao">&#60;/</span><span class="html-name">html</span><span class="pontuacao">&#62;</span>
+                </span>
+            </code>
+        </div>
+    </div>
+    <p>
+        <b>DOCTYPE:</b>
+        a instrução 
+        <em>DOCTYPE</em>
+         deve ser sempre a primeira a aparecer em uma página HTML para indicar ao browser qual versão da linguagem usada. Nesse caso, estamos trabalhando em HTML5, versão na qual a declaração do DOCTYPE é bastante simples, como podemos ver no exemplo;
+    </p>
+    <p>
+        <b>HTML:</b>
+        a abertura e fechamento da tag 
+        <em>html,</em>
+        serve para delimitar o documento.Sendo assim, todas as demais tags da página devem estar nesse espaço;
+    </p>
+    <p>
+        <b>HEAD:</b>
+        a abertura e fechamento da tag 
+        <em>head,</em>
+        serve para definir o cabeçalho do documento. O conteúdo nesse espaço não é visível no browser, mas contém instruções sobre seu conteúdo e comportamento. Dentro dessa tag, por exemplo, podem ser inseridas folhas de estilo e scripts;
+    </p>
+    <p>
+        <b>META:</b>
+        a tag 
+        <em>meta,</em> nesse caso, especifica qual conjunto de caracteres(character set ou charset) será usado para renderizar o texto da página. O UTF-8 contém todos os caracteres dos padrões Unicode e ASCII, sendo, portanto, o mais utilizado em páginas web. A mesma tag meta, porém com outros atributos, pode ser utilizada para outros fins, como na SEO (Search Engine Optimization);
+    </p>
+    <p>
+        <b>TITLE:</b>
+        a tag 
+        <em>title</em> define o título da página, aquele que aparece na janela/aba do navegador;
+    <p>
+        <b>BODY:</b>
+        a abertura e fechamento da tag 
+        <em>body,</em> 
+        serve para marcar o espaço no qual deve estar contido o conteúdo visual da página. As demais tags que representam o texto, botões e outros, devem ser adicionados nesse intervalo.
+    </p>
+    <br>
+    <h3 id="cabecalhos">Cabeçalhos do HTML</h3>
+    <p>
+        Cabeçalhos são normalmente utilizados para identificar páginas e seções e possuem aparência diferenciada do restante do texto. No HTML há seis níveis de cabeçalhos/títulos que podem ser utilizados por meio das tags h1, h2, h3, h4, h5 e h6, sendo o h1 o maior/mais relevante e h6 o menor/menos relevante.
+    </p>
+    <p>
+        <b>Importante:</b>
+        De acordo com as regras de SEO, é recomendado que uma página possua apenas uma tag h1 que indique seu assunto, pois essa tag informa aos motores de busca qual sua principal palavra-chave.
+    </p>
+    <div class="area-codigo">
+        <div>
+            <code>
+                <span class="h1">
+                    <span class="pontuacao">&#60;h1&#62;</span><span class="titulo-nv-1">Título de Nível 1</span><span class="pontuacao">&#60;/h1&#62;</span>
+                </span>
+                <br>
+                <span class="h2">
+                    <span class="pontuacao">&#60;h2&#62;</span><span class="titulo-nv-2">Título de Nível 2</span><span class="pontuacao">&#60;/h2&#62;</span>
+                </span>
+                <br>
+                <span class="h3">
+                    <span class="pontuacao">&#60;h3&#62;</span><span class="titulo-nv-3">Título de Nível 3</span><span class="pontuacao">&#60;/h3&#62;</span>
+                </span>
+                <br>
+                <span class="h4">
+                    <span class="pontuacao">&#60;h4&#62;</span><span class="titulo-nv-4">Título de Nível 4</span><span class="pontuacao">&#60;/h4&#62;</span>
+                </span>
+                <br>
+                <span class="h5">
+                    <span class="pontuacao">&#60;h5&#62;</span><span class="titulo-nv-5">Título de Nível 5</span><span class="pontuacao">&#60;/h5&#62;</span>
+                </span>
+                <br>
+                <span class="h6">
+                    <span class="pontuacao">&#60;h6&#62;</span><span class="titulo-nv-6">Título de Nível 6</span><span class="pontuacao">&#60;/h6&#62;</span>
+                </span>
+            </code>
+        </div>
+    </div>
+    <h1> Título de Nível 1 </h1>
+    <h2> Título de Nível 2 </h2>
+    <h3> Título de Nível 3 </h3>
+    <h4> Título de Nível 4 </h4>
+    <h5> Título de Nível 5 </h5>
+    <h6> Título de Nível 6 </h6> 
+    <br>
+    <h3 id="cabecalhos">Listas no HTML</h3>
+    <p>
+        Listas são elementos úteis para organizar e ordenar itens que estão relacionados de alguma forma. No HTML é possível criar ate três tipos de listas: <strong>Ordenadas</strong> (com a tag <strong>ol</strong>), <strong>Não Ordenadas</strong> (com a tag <strong>ul</strong>) e de <strong>Definição</strong> (por meio da tag <strong>dl</strong>).
+    </p>
+    <div class="exemplo-1">
+        <b>Lista Não Ordenada:</b>
+    </div>
+    <div class="area-codigo">
+        <div>
+            <code>
+                <span class="lista-n-ord">
+                    <span class="pontuacao">&#60;ul&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;li&#62;</span><span class="item-1">Item 1</span><span class="pontuacao">&#60;/li&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;li&#62;</span><span class="item-2">Item 2</span><span class="pontuacao">&#60;/li&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;li&#62;</span><span class="item-3">Item 3</span><span class="pontuacao">&#60;/li&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;/ul&#62;</span>
+                </span>
+            </code>
+        </div>
+    </div>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <div class="exemplo-2">
+        <b>Lista Ordenada:</b>
+    </div>
+    <p>
+        <b>Importante:</b>
+        No caso das listas ordenadas temos o atributo 
+        <strong>type</strong>
+        que permite especificar o tipo de marcador a ser usado: números (padrão), números romanos ou letras.
+        <br>
+    </p>
+    <p>
+        Os valores permitidos para esse atributo são:
+        <br>
+        <ul>
+            <li>1 - números (padrão)</li>
+            <li>i - números romanos minúsculos</li>
+            <li>I - números romanos maiúsculos</li>
+            <li>a - letras minúsculas</li>
+            <li>A - letras maiúsculas</li>
+        </ul>
+    </p>
+    <div class="area-codigo">
+        <div>
+            <code>
+                <span class="lista-ord">
+                    <span class="pontuacao">&#60;ol&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;li&#62;</span><span class="item-1">Item 1</span><span class="pontuacao">&#60;/li&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;li&#62;</span><span class="item-2">Item 2</span><span class="pontuacao">&#60;/li&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;li&#62;</span><span class="item-3">Item 3</span><span class="pontuacao">&#60;/li&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;/ol&#62;</span>
+                </span>
+            </code>
+        </div>
+    </div>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <div class="area-codigo">
+        <div>
+            <code>
+                <span class="lista-ord">
+                    <span class="pontuacao">&#60;ol type="A"&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;li&#62;</span><span class="item-1">Item 1</span><span class="pontuacao">&#60;/li&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;li&#62;</span><span class="item-2">Item 2</span><span class="pontuacao">&#60;/li&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;li&#62;</span><span class="item-3">Item 3</span><span class="pontuacao">&#60;/li&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;/ol&#62;</span>
+                </span>
+            </code>
+        </div>
+    </div>
+    <ol type="A">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <div class="exemplo-3">
+        <b>Lista de Definição:</b>
+    </div>
+    <p>
+        <b>Importante:</b>
+        As listas de definição têm um comportamento um pouco diferente, uma vez que cada item é composto por um título(<strong>dt</strong>) e uma definição (<strong>dd</strong>), semelhante ao que ocorre em dicionários, nos quais temos os verbetes e suas definições.
+        <br>
+    </p>
+    <div class="area-codigo">
+        <div>
+            <code>
+                <span class="lista-de-definicao">
+                    <span class="pontuacao">&#60;dl&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;dt&#62;</span><span class="titulo-1">Título 1</span><span class="pontuacao">&#60;/dt&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;dd&#62;</span><span class="definicao-1">Definição 1</span><span class="pontuacao">&#60;/dd&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;dt&#62;</span><span class="titulo-2">Título 2</span><span class="pontuacao">&#60;/dt&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;dd&#62;</span><span class="definicao-2">Definição 2</span><span class="pontuacao">&#60;/dd&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;dt&#62;</span><span class="titulo-3">Título 3</span><span class="pontuacao">&#60;/dt&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;dd&#62;</span><span class="definicao-3">Definição 3</span><span class="pontuacao">&#60;/dd&#62;</span>
+                    <br>
+                    <span class="pontuacao">&#60;/dl&#62;</span>
+                </span>
+            </code>
+        </div>
+    </div>
+    <dl>
+        <dt>Título 1</dt>
+        <dd>Definição 1</dd>
+        <dt>Título 2</dt>
+        <dd>Definição 2</dd>
+        <dt>Título 3</dt>
+        <dd>Definição 3</dd>
+    </dl>
